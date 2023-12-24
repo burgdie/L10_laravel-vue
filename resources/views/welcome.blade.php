@@ -8,7 +8,11 @@
     @vite(['resources/js/app.js','resources/sass/app.scss' ])
 </head>
 <body><div id="app">
-    <example-component></example-component>
+   <nav>
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About </router-link>
+   </nav>
+   <router-view></router-view>
 
 </div>
     
